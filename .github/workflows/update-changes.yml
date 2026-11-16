@@ -1,0 +1,41 @@
+name: Aktualizuj zmiany do planu
+
+on:
+  schedule:
+    # Codziennie o 21:00 czasu polskiego (CET/CEST).
+    - cron: "0 21 * * *"
+      timezone: "Europe/Warsaw"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: teacher-finder-data-imports
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Pobierz repozytorium
+        uses: actions/checkout@v4
+      - name: Skonfiguruj Pythona
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Zainstaluj zależności
+        run: pip install -r requirements.txt
+      - name: Pobierz i przetwórz komunikaty o zmianach
+        run: python scripts/import_changes.py
+      - name: Zapisz zmienione komunikaty
+        run: |
+          if [[ -n "$(git status --porcelain data/changes.json)" ]]; then
+            git config user.name "teacher-finder-bot"
+            git config user.email "actions@users.noreply.github.com"
+            git add data/changes.json
+            git commit -m "Aktualizacja komunikatów o zmianach"
+            git push
+          else
+            echo "Brak zmian w komunikatach."
+          fi

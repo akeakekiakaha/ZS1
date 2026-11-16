@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="pl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#0b1020">
+  <meta name="description" content="Teacher Finder — wyszukiwarka planów nauczycieli, sal i klas ZS1 oraz komunikaty o zmianach.">
+  <title>Teacher Finder · ZS1</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="ambient ambient-a"></div><div class="ambient ambient-b"></div>
+  <header class="topbar">
+    <a class="brand" href="./" aria-label="Teacher Finder — strona główna">
+      <span class="brand-mark"><span></span><span></span><span></span></span>
+      <span><strong>Teacher Finder</strong><small>ZS1 · PLAN LEKCJI</small></span>
+    </a>
+    <div class="top-meta"><span class="live-dot"></span><span id="sync-label">Odczyt danych…</span></div>
+  </header>
+
+  <main class="container">
+    <section class="hero">
+      <div class="eyebrow"><span class="eyebrow-line"></span> SZKOLNA WYSZUKIWARKA PLANÓW</div>
+      <h1>Znajdź <span>nauczyciela.</span><br>Znajdź salę.</h1>
+      <p class="hero-copy">Sprawdź plan zajęć, klasy, sale i aktualne komunikaty o zmianach w jednym miejscu.</p>
+    </section>
+
+    <nav class="view-nav" aria-label="Widoki aplikacji">
+      <button class="view-tab active" data-view="search" aria-pressed="true">⌕ Wyszukiwarka</button>
+      <button class="view-tab" data-view="day" aria-pressed="false">◷ Plan dzienny</button>
+      <button class="view-tab" data-view="week" aria-pressed="false">▦ Plan tygodniowy</button>
+    </nav>
+
+    <section id="search-view" class="view-panel">
+      <section class="search-panel">
+        <div class="tabs" role="tablist" aria-label="Rodzaj wyszukiwania">
+          <button class="tab active" data-mode="teacher" role="tab" aria-selected="true">♙ Nauczyciel</button>
+          <button class="tab" data-mode="room" role="tab" aria-selected="false">⌂ Sala</button>
+          <button class="tab" data-mode="class" role="tab" aria-selected="false">▦ Klasa</button>
+        </div>
+        <label class="search-label" for="search-input" id="search-label">KOD NAUCZYCIELA</label>
+        <div class="search-row"><div class="search-input-wrap"><span class="search-icon">⌕</span><input id="search-input" type="search" placeholder="Np. Ga, Zi, WE…" autocomplete="off"></div><button id="clear-btn" class="clear-btn" type="button" aria-label="Wyczyść wyszukiwanie">×</button></div>
+        <div class="quick-hint" id="search-hint">Wpisz kod nauczyciela, np. Ga albo WE.</div>
+      </section>
+      <section class="results-head"><div><div class="section-kicker">WYNIKI</div><h2 id="results-title">Wyszukaj nauczyciela</h2></div><span class="result-count" id="result-count">0 lekcji</span></section>
+      <section id="results" class="results" aria-live="polite"><div class="empty-state"><div class="empty-icon">⌕</div><h3>Wpisz kod, salę lub klasę</h3><p>Wyniki pojawią się tutaj po wyszukaniu.</p></div></section>
+    </section>
+
+    <section id="day-view" class="view-panel" hidden>
+      <div class="panel-heading"><div><div class="section-kicker">PLAN NA WYBRANY DZIEŃ</div><h2>Plan dzienny</h2></div><span class="result-count" id="day-count">0 lekcji</span></div>
+      <div class="filter-panel">
+        <label> Dzień tygodnia<select id="day-select"><option value="0">Poniedziałek</option><option value="1">Wtorek</option><option value="2">Środa</option><option value="3">Czwartek</option><option value="4">Piątek</option></select></label>
+        <label>Kategoria<select id="day-category"><option value="class">Klasa</option><option value="teacher">Nauczyciel</option><option value="room">Sala</option></select></label>
+        <label>Wybierz element<input id="day-filter" type="search" placeholder="Np. 4B, Ga, 204"></label>
+      </div>
+      <div id="day-changes" class="notice-list"></div>
+      <div id="day-results" class="results"><div class="empty-state"><h3>Wybierz dzień</h3><p>Plan zostanie wyświetlony po załadowaniu danych.</p></div></div>
+    </section>
+
+    <section id="week-view" class="view-panel" hidden>
+      <div class="panel-heading"><div><div class="section-kicker">PONIEDZIAŁEK – PIĄTEK</div><h2>Plan tygodniowy</h2></div><span class="result-count" id="week-count">0 lekcji</span></div>
+      <div class="filter-panel week-filter">
+        <label>Kategoria<select id="week-category"><option value="class">Klasa</option><option value="teacher">Nauczyciel</option><option value="room">Sala</option></select></label>
+        <label>Wybierz element<input id="week-filter" type="search" placeholder="Np. 4B, Ga, 204"></label>
+      </div>
+      <div id="week-results" class="week-table-wrap"><div class="empty-state"><h3>Wybierz klasę, nauczyciela lub salę</h3><p>Tabela pokaże plan od poniedziałku do piątku.</p></div></div>
+      <div id="week-changes" class="notice-list"></div>
+    </section>
+
+    <section class="week-section"><div class="section-kicker">WAŻNE INFORMACJE</div><div class="info-grid">
+      <article class="info-card"><span class="info-symbol purple">◷</span><div><strong>Godziny lekcji</strong><p>Numery lekcji i przedziały czasowe pobierane z planu.</p></div></article>
+      <article class="info-card"><span class="info-symbol cyan">⌂</span><div><strong>Sale i klasy</strong><p>Każdy wpis wskazuje salę oraz oddział, którego dotyczy.</p></div></article>
+      <article class="info-card"><span class="info-symbol green">↻</span><div><strong>Aktualizacje</strong><p>Plan co tydzień, komunikaty o zmianach codziennie.</p></div></article>
+    </div></section>
+    <footer><span>TEACHER FINDER</span><span>Komunikaty o zmianach są dodatkową informacją i nie nadpisują podstawowego planu lekcji.</span></footer>
+  </main>
+  <script src="app.js"></script>
+</body>
+</html>
