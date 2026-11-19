@@ -1,313 +1,225 @@
 {
   "meta": {
     "source": "https://www.zs-1.edu.pl/index.php/plan-lekcji/zmiany-do-planu",
-    "updated_at": "2026-11-18T02:59:04.244171+01:00",
-    "published_date": "2026-11-18",
-    "page_title": "2026-11-18",
-    "message_count": 24,
+    "updated_at": "2026-11-19T02:36:35.904583+01:00",
+    "published_date": "2026-11-19",
+    "page_title": "2026-11-19",
+    "message_count": 17,
     "status": "ok"
   },
   "messages": [
     {
-      "id": "2026-11-18:1C:1",
-      "date": "2026-11-18",
-      "class_name": "1C",
+      "id": "2026-11-19:ogolne:1",
+      "date": "2026-11-19",
+      "class_name": null,
       "lesson_numbers": [
+        2,
+        3,
         4
       ],
+      "group": null,
+      "teacher": null,
+      "room": null,
+      "scope": "lesson",
+      "raw_text": "Zapraszamy klasy 2C i 2CS na spotkanie w ramach projektu „Edukacja z wojskiem” - lekcja 2, 3, 4 na auli"
+    },
+    {
+      "id": "2026-11-19:ogolne:2",
+      "date": "2026-11-19",
+      "class_name": null,
+      "lesson_numbers": [],
+      "group": null,
+      "teacher": null,
+      "room": null,
+      "scope": "general",
+      "raw_text": "Zapraszamy uczestników turnieju „Konik szachowy” o godzinie 9:00 do sali nr 212B"
+    },
+    {
+      "id": "2026-11-19:1A:3",
+      "date": "2026-11-19",
+      "class_name": "1A",
+      "lesson_numbers": [
+        7
+      ],
       "group": "2",
-      "teacher": "O. Madeja",
+      "teacher": "K. Madeja",
       "room": "111",
       "scope": "lesson",
-      "raw_text": "Lekcja 4 grupa 2 – zajęcia z psychologiem p. O. Madeja s. 111"
+      "raw_text": "Lekcja 7 grupa 2 – zajęcia z pedagogiem p. K. Madeja s. 111"
     },
     {
-      "id": "2026-11-18:1C:2",
-      "date": "2026-11-18",
+      "id": "2026-11-19:1C:4",
+      "date": "2026-11-19",
       "class_name": "1C",
       "lesson_numbers": [
-        5
-      ],
-      "group": "1",
-      "teacher": "O. Madeja",
-      "room": "111",
-      "scope": "lesson",
-      "raw_text": "Lekcja 5 grupa 1 – zajęcia z psychologiem p. O. Madeja s. 111"
-    },
-    {
-      "id": "2026-11-18:1C:3",
-      "date": "2026-11-18",
-      "class_name": "1C",
-      "lesson_numbers": [
-        6
-      ],
-      "group": "1",
-      "teacher": "Strzelec",
-      "room": "biblioteka",
-      "scope": "lesson",
-      "raw_text": "Lekcja 6 grupa 1 – zajęcia z bibliotekarzem p. Strzelec s. biblioteka"
-    },
-    {
-      "id": "2026-11-18:1CR:4",
-      "date": "2026-11-18",
-      "class_name": "1CR",
-      "lesson_numbers": [],
-      "group": null,
-      "teacher": null,
-      "room": null,
-      "scope": "class",
-      "raw_text": "Klasa zwolniona do domu po lekcji 6"
-    },
-    {
-      "id": "2026-11-18:2C:5",
-      "date": "2026-11-18",
-      "class_name": "2C",
-      "lesson_numbers": [],
-      "group": null,
-      "teacher": null,
-      "room": null,
-      "scope": "class",
-      "raw_text": "Grupa Podział2 rozpoczyna zajęcia od lekcji 4"
-    },
-    {
-      "id": "2026-11-18:2C:6",
-      "date": "2026-11-18",
-      "class_name": "2C",
-      "lesson_numbers": [],
-      "group": null,
-      "teacher": null,
-      "room": null,
-      "scope": "class",
-      "raw_text": "Grupa Podział1 zwolniona do domu po lekcji 6"
-    },
-    {
-      "id": "2026-11-18:2CS:7",
-      "date": "2026-11-18",
-      "class_name": "2CS",
-      "lesson_numbers": [
-        2
-      ],
-      "group": "1",
-      "teacher": "Strzelec",
-      "room": "biblioteka",
-      "scope": "lesson",
-      "raw_text": "Lekcja 2 grupa 1 – zajęcia z bibliotekarzem p. Strzelec s. biblioteka"
-    },
-    {
-      "id": "2026-11-18:2CS:8",
-      "date": "2026-11-18",
-      "class_name": "2CS",
-      "lesson_numbers": [
-        2
-      ],
-      "group": "2",
-      "teacher": "Totoś",
-      "room": "212",
-      "scope": "lesson",
-      "raw_text": "Lekcja 2 grupa 2 – p. Totoś s. 212 zajęcia przeniesione z 20 XI"
-    },
-    {
-      "id": "2026-11-18:2CS:9",
-      "date": "2026-11-18",
-      "class_name": "2CS",
-      "lesson_numbers": [
-        5
-      ],
-      "group": null,
-      "teacher": "Zając",
-      "room": "ST",
-      "scope": "lesson",
-      "raw_text": "Lekcja 5 – zastępstwo chemia p. Zając s. ST"
-    },
-    {
-      "id": "2026-11-18:2CS:10",
-      "date": "2026-11-18",
-      "class_name": "2CS",
-      "lesson_numbers": [
-        6
+        3
       ],
       "group": null,
       "teacher": "O. Madeja",
-      "room": "11",
+      "room": "206",
       "scope": "lesson",
-      "raw_text": "Lekcja 6 – zajęcia z psychologiem p. O. Madeja s. 11"
+      "raw_text": "Lekcja 3 – zajęcia z psychologiem p. O. Madeja s. 206"
     },
     {
-      "id": "2026-11-18:3A:11",
-      "date": "2026-11-18",
-      "class_name": "3A",
+      "id": "2026-11-19:2C:5",
+      "date": "2026-11-19",
+      "class_name": "2C",
       "lesson_numbers": [
         4
       ],
       "group": null,
-      "teacher": "Strzelec",
-      "room": "biblioteka",
+      "teacher": "Gajewska",
+      "room": "aula",
       "scope": "lesson",
-      "raw_text": "Lekcja 4 - zajęcia z bibliotekarzem p. Strzelec s. biblioteka"
+      "raw_text": "Lekcja 4 całość – zastępstwo p. Gajewska s. aula"
     },
     {
-      "id": "2026-11-18:4B:12",
-      "date": "2026-11-18",
-      "class_name": "4B",
-      "lesson_numbers": [
-        4
-      ],
-      "group": "2",
-      "teacher": "Wesołowski",
-      "room": "112",
-      "scope": "lesson",
-      "raw_text": "Lekcja 4 grupa 2 – p. Wesołowski zmiana sali na s. 112"
-    },
-    {
-      "id": "2026-11-18:4B:13",
-      "date": "2026-11-18",
-      "class_name": "4B",
-      "lesson_numbers": [
-        5
-      ],
-      "group": null,
-      "teacher": "Ziębacz",
-      "room": "205",
-      "scope": "lesson",
-      "raw_text": "Lekcja 5 – p. Ziębacz zmiana sali na s. 205"
-    },
-    {
-      "id": "2026-11-18:4B:14",
-      "date": "2026-11-18",
-      "class_name": "4B",
-      "lesson_numbers": [
-        8
-      ],
-      "group": null,
-      "teacher": "O. Madeja",
-      "room": "106",
-      "scope": "lesson",
-      "raw_text": "Lekcja 8 – zajęcia z psychologiem p. O. Madeja s. 106"
-    },
-    {
-      "id": "2026-11-18:4E:15",
-      "date": "2026-11-18",
+      "id": "2026-11-19:4E:6",
+      "date": "2026-11-19",
       "class_name": "4E",
-      "lesson_numbers": [
-        8
-      ],
-      "group": null,
-      "teacher": "Grela",
-      "room": "P",
-      "scope": "lesson",
-      "raw_text": "Lekcja 8 całość – zastępstwo p. Grela s. P"
+      "lesson_numbers": [],
+      "group": "1",
+      "teacher": null,
+      "room": null,
+      "scope": "class",
+      "raw_text": "Grupa 1 zwolniona do domu po lekcji 7"
     },
     {
-      "id": "2026-11-18:4F:16",
-      "date": "2026-11-18",
+      "id": "2026-11-19:4F:7",
+      "date": "2026-11-19",
       "class_name": "4F",
       "lesson_numbers": [
-        4,
-        5
+        3
       ],
-      "group": null,
-      "teacher": "Żalek",
-      "room": "109",
+      "group": "1",
+      "teacher": "Ducka",
+      "room": "111",
       "scope": "lesson",
-      "raw_text": "Lekcja 4, 5 całość – zastępstwo dokumentowanie p. Żalek s. 109"
+      "raw_text": "Lekcja 3 grupa 1 – p. Ducka zmiana sali na s. 111"
     },
     {
-      "id": "2026-11-18:4F:17",
-      "date": "2026-11-18",
+      "id": "2026-11-19:4F:8",
+      "date": "2026-11-19",
       "class_name": "4F",
       "lesson_numbers": [
-        6
+        4
       ],
-      "group": null,
-      "teacher": "Wesołowski",
-      "room": "112",
+      "group": "1",
+      "teacher": "Wieczorek",
+      "room": "104",
       "scope": "lesson",
-      "raw_text": "Lekcja 6 całość – zastępstwo j. niemiecki p. Wesołowski s. 112"
+      "raw_text": "Lekcja 4 grupa 1 – doradztwo p. Wieczorek s. 104."
     },
     {
-      "id": "2026-11-18:5B:18",
-      "date": "2026-11-18",
-      "class_name": "5B",
+      "id": "2026-11-19:4F:9",
+      "date": "2026-11-19",
+      "class_name": "4F",
+      "lesson_numbers": [
+        4
+      ],
+      "group": "2",
+      "teacher": "Ducka",
+      "room": "111",
+      "scope": "lesson",
+      "raw_text": "Lekcja 4 grupa 2 – p. Ducka zmiana sali na s. 111"
+    },
+    {
+      "id": "2026-11-19:4F:10",
+      "date": "2026-11-19",
+      "class_name": "4F",
       "lesson_numbers": [
         5
       ],
       "group": "1",
-      "teacher": "Wesołowski",
-      "room": "112",
+      "teacher": "Strzelec",
+      "room": "biblioteka",
       "scope": "lesson",
-      "raw_text": "Lekcja 5 grupa 1 – p. Wesołowski zmiana sali na s. 112"
+      "raw_text": "Lekcja 5 grupa 1 – zajęcia z bibliotekarzem p. Strzelec s. biblioteka"
     },
     {
-      "id": "2026-11-18:5C:19",
-      "date": "2026-11-18",
+      "id": "2026-11-19:4CS:11",
+      "date": "2026-11-19",
+      "class_name": "4CS",
+      "lesson_numbers": [
+        2
+      ],
+      "group": "1",
+      "teacher": "Ducka",
+      "room": "111",
+      "scope": "lesson",
+      "raw_text": "Lekcja 2 grupa 1 – p. Ducka zmiana sali na s. 111"
+    },
+    {
+      "id": "2026-11-19:4CS:12",
+      "date": "2026-11-19",
+      "class_name": "4CS",
+      "lesson_numbers": [
+        4
+      ],
+      "group": null,
+      "teacher": "Totoś",
+      "room": "103",
+      "scope": "lesson",
+      "raw_text": "Lekcja 4 całość – zastępstwo j. niemiecki p. Totoś s. 103"
+    },
+    {
+      "id": "2026-11-19:4P:13",
+      "date": "2026-11-19",
+      "class_name": "4P",
+      "lesson_numbers": [],
+      "group": "1",
+      "teacher": null,
+      "room": null,
+      "scope": "class",
+      "raw_text": "Grupa 1 rozpoczyna zajęcia od lekcji 7"
+    },
+    {
+      "id": "2026-11-19:4P:14",
+      "date": "2026-11-19",
+      "class_name": "4P",
+      "lesson_numbers": [
+        7
+      ],
+      "group": null,
+      "teacher": "Gurowiec",
+      "room": "108",
+      "scope": "lesson",
+      "raw_text": "Lekcja 7 całość – zastępstwo p. Gurowiec s. 108"
+    },
+    {
+      "id": "2026-11-19:4P:15",
+      "date": "2026-11-19",
+      "class_name": "4P",
+      "lesson_numbers": [
+        8
+      ],
+      "group": null,
+      "teacher": "Czaplik",
+      "room": "9",
+      "scope": "lesson",
+      "raw_text": "Lekcja 8 całość – zastępstwo p. Czaplik s. 9"
+    },
+    {
+      "id": "2026-11-19:5C:16",
+      "date": "2026-11-19",
       "class_name": "5C",
       "lesson_numbers": [],
       "group": "2",
       "teacher": null,
       "room": null,
       "scope": "class",
-      "raw_text": "Grupa 2 zwolniona do domu po lekcji 9"
+      "raw_text": "Grupa 2 rozpoczyna zajęcia od lekcji 7"
     },
     {
-      "id": "2026-11-18:5C:20",
-      "date": "2026-11-18",
-      "class_name": "5C",
-      "lesson_numbers": [
-        10
-      ],
-      "group": "2",
-      "teacher": null,
-      "room": null,
-      "scope": "lesson",
-      "raw_text": "Lekcja 10 grupa 2 – zajęcia przeniesione na 20 XI l. 11"
-    },
-    {
-      "id": "2026-11-18:5C:21",
-      "date": "2026-11-18",
-      "class_name": "5C",
-      "lesson_numbers": [
-        11
-      ],
-      "group": "2",
-      "teacher": null,
-      "room": null,
-      "scope": "lesson",
-      "raw_text": "Lekcja 11 grupa 2 – zajęcia przeniesione na 27 XI l. 11"
-    },
-    {
-      "id": "2026-11-18:5C:22",
-      "date": "2026-11-18",
-      "class_name": "5C",
-      "lesson_numbers": [
-        12
-      ],
-      "group": "2",
-      "teacher": null,
-      "room": null,
-      "scope": "lesson",
-      "raw_text": "Lekcja 12 grupa 2 – zajęcia przeniesione na 4 XII l. 11"
-    },
-    {
-      "id": "2026-11-18:5D:23",
-      "date": "2026-11-18",
+      "id": "2026-11-19:5D:17",
+      "date": "2026-11-19",
       "class_name": "5D",
       "lesson_numbers": [],
-      "group": null,
+      "group": "2",
       "teacher": null,
       "room": null,
       "scope": "class",
-      "raw_text": "Klasa zwolniona do domu po lekcji 8"
-    },
-    {
-      "id": "2026-11-18:5E:24",
-      "date": "2026-11-18",
-      "class_name": "5E",
-      "lesson_numbers": [],
-      "group": null,
-      "teacher": null,
-      "room": null,
-      "scope": "class",
-      "raw_text": "Klasa zwolniona do domu po lekcji 9"
+      "raw_text": "Grupa 2 rozpoczyna zajęcia od lekcji 4"
     }
   ]
 }
