@@ -1,28 +1,70 @@
 {
   "meta": {
     "source": "https://www.zs-1.edu.pl/index.php/plan-lekcji/zmiany-do-planu",
-    "updated_at": "2026-11-24T05:32:52.602192+01:00",
-    "published_date": "2026-11-24",
-    "page_title": "2026-11-24",
-    "message_count": 42,
+    "updated_at": "2026-11-25T04:17:53.840788+01:00",
+    "published_date": "2026-11-25",
+    "page_title": "2026-11-25",
+    "message_count": 19,
     "status": "ok"
   },
   "messages": [
     {
-      "id": "2026-11-24:ogolne:1",
-      "date": "2026-11-24",
-      "class_name": null,
-      "lesson_numbers": [],
-      "group": null,
-      "teacher": null,
-      "room": null,
-      "scope": "general",
-      "raw_text": "Zapraszamy na spotkanie trójek klasowych o 10:30 w sali nr 108"
+      "id": "2026-11-25:1B:1",
+      "date": "2026-11-25",
+      "class_name": "1B",
+      "lesson_numbers": [
+        4
+      ],
+      "group": "2",
+      "teacher": "Schaefer",
+      "room": "aula",
+      "scope": "lesson",
+      "raw_text": "Lekcja 4 grupa 2 – p. Schaefer zmiana sali na s. aula"
     },
     {
-      "id": "2026-11-24:1A:2",
-      "date": "2026-11-24",
-      "class_name": "1A",
+      "id": "2026-11-25:1B:2",
+      "date": "2026-11-25",
+      "class_name": "1B",
+      "lesson_numbers": [
+        6
+      ],
+      "group": "1",
+      "teacher": "Schaefer",
+      "room": "aula",
+      "scope": "lesson",
+      "raw_text": "Lekcja 6 grupa 1 – p. Schaefer zmiana sali na s. aula"
+    },
+    {
+      "id": "2026-11-25:1CP:3",
+      "date": "2026-11-25",
+      "class_name": "1CP",
+      "lesson_numbers": [
+        6
+      ],
+      "group": null,
+      "teacher": "Gowin",
+      "room": "aula",
+      "scope": "lesson",
+      "raw_text": "Lekcja 6 – p. Gowin zmiana sali na s. aula"
+    },
+    {
+      "id": "2026-11-25:2A:4",
+      "date": "2026-11-25",
+      "class_name": "2A",
+      "lesson_numbers": [
+        1,
+        2
+      ],
+      "group": "2",
+      "teacher": "Schaefer",
+      "room": "aula",
+      "scope": "lesson",
+      "raw_text": "Lekcja 1, 2 grupa 2 – p. Schaefer zmiana sali na s. aula"
+    },
+    {
+      "id": "2026-11-25:2A:5",
+      "date": "2026-11-25",
+      "class_name": "2A",
       "lesson_numbers": [],
       "group": null,
       "teacher": null,
@@ -31,422 +73,62 @@
       "raw_text": "Klasa zwolniona do domu po lekcji 6"
     },
     {
-      "id": "2026-11-24:1B:3",
-      "date": "2026-11-24",
-      "class_name": "1B",
+      "id": "2026-11-25:3A:6",
+      "date": "2026-11-25",
+      "class_name": "3A",
       "lesson_numbers": [
-        6
-      ],
-      "group": null,
-      "teacher": "Strzelec",
-      "room": "biblioteka",
-      "scope": "lesson",
-      "raw_text": "Lekcja 6 – zajęcia z bibliotekarzem p. Strzelec s. biblioteka/209"
-    },
-    {
-      "id": "2026-11-24:1B:4",
-      "date": "2026-11-24",
-      "class_name": "1B",
-      "lesson_numbers": [
-        8
-      ],
-      "group": null,
-      "teacher": "Kotalczyk",
-      "room": "105",
-      "scope": "lesson",
-      "raw_text": "Lekcja 8 – zastępstwo biologia p. Kotalczyk s. 105"
-    },
-    {
-      "id": "2026-11-24:1B:5",
-      "date": "2026-11-24",
-      "class_name": "1B",
-      "lesson_numbers": [
-        9
-      ],
-      "group": null,
-      "teacher": null,
-      "room": "108",
-      "scope": "lesson",
-      "raw_text": "Lekcja 9 – ks. Adamiak zmiana sali na s. 108"
-    },
-    {
-      "id": "2026-11-24:1C:6",
-      "date": "2026-11-24",
-      "class_name": "1C",
-      "lesson_numbers": [
-        5
-      ],
-      "group": "1",
-      "teacher": "Strzelec",
-      "room": "biblioteka",
-      "scope": "lesson",
-      "raw_text": "Lekcja 5 grupa 1 – zajęcia z bibliotekarzem p. Strzelec s. biblioteka"
-    },
-    {
-      "id": "2026-11-24:1C:7",
-      "date": "2026-11-24",
-      "class_name": "1C",
-      "lesson_numbers": [
-        9
-      ],
-      "group": null,
-      "teacher": null,
-      "room": "108",
-      "scope": "lesson",
-      "raw_text": "Lekcja 9 – ks. Adamiak zmiana sali na s. 108"
-    },
-    {
-      "id": "2026-11-24:1CP:8",
-      "date": "2026-11-24",
-      "class_name": "1CP",
-      "lesson_numbers": [
-        5
-      ],
-      "group": "1",
-      "teacher": "Ferdyn",
-      "room": "6A",
-      "scope": "lesson",
-      "raw_text": "Lekcja 5 grupa 1 – p. Ferdyn s. 6A zajęcia przeniesione z lekcji 8"
-    },
-    {
-      "id": "2026-11-24:1CP:9",
-      "date": "2026-11-24",
-      "class_name": "1CP",
-      "lesson_numbers": [
-        5
-      ],
-      "group": "2",
-      "teacher": "Kotalczyk",
-      "room": "105",
-      "scope": "lesson",
-      "raw_text": "Lekcja 5 grupa 2 – p. Kotalczyk s. 105 zajęcia przeniesione z lekcji 8"
-    },
-    {
-      "id": "2026-11-24:1CP:10",
-      "date": "2026-11-24",
-      "class_name": "1CP",
-      "lesson_numbers": [],
-      "group": null,
-      "teacher": null,
-      "room": null,
-      "scope": "class",
-      "raw_text": "Klasa zwolniona do domu po lekcji 5"
-    },
-    {
-      "id": "2026-11-24:2A:11",
-      "date": "2026-11-24",
-      "class_name": "2A",
-      "lesson_numbers": [
-        3
-      ],
-      "group": null,
-      "teacher": "Wieczorek",
-      "room": "205",
-      "scope": "lesson",
-      "raw_text": "Lekcja 3 – doradztwo p. Wieczorek s. 205"
-    },
-    {
-      "id": "2026-11-24:2B:12",
-      "date": "2026-11-24",
-      "class_name": "2B",
-      "lesson_numbers": [
-        8
-      ],
-      "group": "1",
-      "teacher": "Wieczorek",
-      "room": "112",
-      "scope": "lesson",
-      "raw_text": "Lekcja 8 grupa 1 – p. Wieczorek zmiana sali na s. 112"
-    },
-    {
-      "id": "2026-11-24:2B:13",
-      "date": "2026-11-24",
-      "class_name": "2B",
-      "lesson_numbers": [
-        8
-      ],
-      "group": "2",
-      "teacher": "Totoś",
-      "room": "11",
-      "scope": "lesson",
-      "raw_text": "Lekcja 8 grupa 2 – p. Totoś zmiana sali na s. 11"
-    },
-    {
-      "id": "2026-11-24:2B:14",
-      "date": "2026-11-24",
-      "class_name": "2B",
-      "lesson_numbers": [
-        9
-      ],
-      "group": "1",
-      "teacher": "Totoś",
-      "room": "11",
-      "scope": "lesson",
-      "raw_text": "Lekcja 9 grupa 1 – p. Totoś zmiana sali na s. 11"
-    },
-    {
-      "id": "2026-11-24:2C:15",
-      "date": "2026-11-24",
-      "class_name": "2C",
-      "lesson_numbers": [],
-      "group": "2",
-      "teacher": null,
-      "room": null,
-      "scope": "class",
-      "raw_text": "Grupa 2 zwolniona do domu po lekcji 7"
-    },
-    {
-      "id": "2026-11-24:2CS:16",
-      "date": "2026-11-24",
-      "class_name": "2CS",
-      "lesson_numbers": [
-        5
-      ],
-      "group": null,
-      "teacher": "K. Madeja",
-      "room": "112",
-      "scope": "lesson",
-      "raw_text": "Lekcja 5 – zajęcia z pedagogiem p. K. Madeja s. 112"
-    },
-    {
-      "id": "2026-11-24:2CS:17",
-      "date": "2026-11-24",
-      "class_name": "2CS",
-      "lesson_numbers": [
-        6
-      ],
-      "group": "1",
-      "teacher": "Totoś",
-      "room": "11",
-      "scope": "lesson",
-      "raw_text": "Lekcja 6 grupa 1 – zastępstwo j. niemiecki p. Totoś s. 11"
-    },
-    {
-      "id": "2026-11-24:2CS:18",
-      "date": "2026-11-24",
-      "class_name": "2CS",
-      "lesson_numbers": [
-        6
-      ],
-      "group": "2",
-      "teacher": "Totoś",
-      "room": "11",
-      "scope": "lesson",
-      "raw_text": "Lekcja 6 grupa 2 – p. Totoś s. 11 zajęcia przeniesione z 18 XI"
-    },
-    {
-      "id": "2026-11-24:2CS:19",
-      "date": "2026-11-24",
-      "class_name": "2CS",
-      "lesson_numbers": [
+        6,
         7
       ],
       "group": "2",
-      "teacher": "Strzelec",
-      "room": "biblioteka",
+      "teacher": "Ducka",
+      "room": "212B",
       "scope": "lesson",
-      "raw_text": "Lekcja 7 grupa 2 – zajęcia z bibliotekarzem p. Strzelec s. biblioteka"
+      "raw_text": "Lekcja 6, 7 grupa 2 – p. Ducka zmiana sali na s. 212B"
     },
     {
-      "id": "2026-11-24:3A:20",
-      "date": "2026-11-24",
-      "class_name": "3A",
-      "lesson_numbers": [],
-      "group": null,
-      "teacher": null,
-      "room": null,
-      "scope": "class",
-      "raw_text": "Osoby nieuczęszczające na religię zwolnione do domu po lekcji 5"
-    },
-    {
-      "id": "2026-11-24:3A:21",
-      "date": "2026-11-24",
+      "id": "2026-11-25:3A:7",
+      "date": "2026-11-25",
       "class_name": "3A",
       "lesson_numbers": [
-        6
+        8
       ],
-      "group": null,
-      "teacher": "Ferdyn",
-      "room": "23",
+      "group": "1",
+      "teacher": "Ducka",
+      "room": "212B",
       "scope": "lesson",
-      "raw_text": "Lekcja 6 grupa religia – zastępstwo p. Ferdyn s. 23"
+      "raw_text": "Lekcja 8 grupa 1 – p. Ducka zmiana sali na s. 212B"
     },
     {
-      "id": "2026-11-24:3B:22",
-      "date": "2026-11-24",
-      "class_name": "3B",
+      "id": "2026-11-25:4A:8",
+      "date": "2026-11-25",
+      "class_name": "4A",
       "lesson_numbers": [
         5
-      ],
-      "group": null,
-      "teacher": "Totoś",
-      "room": "11",
-      "scope": "lesson",
-      "raw_text": "Lekcja 5 – p. Totoś zmiana sali na s. 11"
-    },
-    {
-      "id": "2026-11-24:4A:23",
-      "date": "2026-11-24",
-      "class_name": "4A",
-      "lesson_numbers": [],
-      "group": null,
-      "teacher": null,
-      "room": null,
-      "scope": "class",
-      "raw_text": "Klasa rozpoczyna zajęcia od lekcji 3"
-    },
-    {
-      "id": "2026-11-24:4A:24",
-      "date": "2026-11-24",
-      "class_name": "4A",
-      "lesson_numbers": [
-        9
       ],
       "group": null,
       "teacher": "Sukiennik",
-      "room": "106",
+      "room": "aula",
       "scope": "lesson",
-      "raw_text": "Lekcja 9 – p. Sukiennik s. 106 zajęcia przeniesione z 3 XI"
+      "raw_text": "Lekcja 5 - p. Sukiennik zmiana sali na s. aula"
     },
     {
-      "id": "2026-11-24:4D:25",
-      "date": "2026-11-24",
-      "class_name": "4D",
+      "id": "2026-11-25:4A:9",
+      "date": "2026-11-25",
+      "class_name": "4A",
       "lesson_numbers": [
         7
       ],
       "group": null,
-      "teacher": "Wieczorek",
-      "room": "112",
+      "teacher": "Schaefer",
+      "room": "aula",
       "scope": "lesson",
-      "raw_text": "Lekcja 7 – p. Wieczorek zmiana sali na s. 112"
+      "raw_text": "Lekcja 7 - p. Schaefer zmiana sali na s. aula"
     },
     {
-      "id": "2026-11-24:4D:26",
-      "date": "2026-11-24",
-      "class_name": "4D",
-      "lesson_numbers": [],
-      "group": null,
-      "teacher": null,
-      "room": null,
-      "scope": "class",
-      "raw_text": "Klasa zwolniona do domu po lekcji 7"
-    },
-    {
-      "id": "2026-11-24:4E:27",
-      "date": "2026-11-24",
-      "class_name": "4E",
-      "lesson_numbers": [
-        10
-      ],
-      "group": null,
-      "teacher": null,
-      "room": "108",
-      "scope": "lesson",
-      "raw_text": "Lekcja 10 – ks. Adamiak zmiana sali na s. 108"
-    },
-    {
-      "id": "2026-11-24:4F:28",
-      "date": "2026-11-24",
-      "class_name": "4F",
-      "lesson_numbers": [],
-      "group": "1",
-      "teacher": null,
-      "room": null,
-      "scope": "class",
-      "raw_text": "Grupa 1 zwolniona do domu po lekcji 7"
-    },
-    {
-      "id": "2026-11-24:4CS:29",
-      "date": "2026-11-24",
-      "class_name": "4CS",
-      "lesson_numbers": [
-        4
-      ],
-      "group": "2",
-      "teacher": "Totoś",
-      "room": "11",
-      "scope": "lesson",
-      "raw_text": "Lekcja 4 grupa 2 – p. Totoś zmiana sali na s. 11"
-    },
-    {
-      "id": "2026-11-24:4CS:30",
-      "date": "2026-11-24",
-      "class_name": "4CS",
-      "lesson_numbers": [
-        6
-      ],
-      "group": null,
-      "teacher": "O. Madeja",
-      "room": "110",
-      "scope": "lesson",
-      "raw_text": "Lekcja 6 – zajęcia z psychologiem p. O. Madeja s. 110"
-    },
-    {
-      "id": "2026-11-24:4CS:31",
-      "date": "2026-11-24",
-      "class_name": "4CS",
-      "lesson_numbers": [
-        7
-      ],
-      "group": "1",
-      "teacher": "Totoś",
-      "room": "11",
-      "scope": "lesson",
-      "raw_text": "Lekcja 7 grupa 1 – p. Totoś zmiana sali na s. 11"
-    },
-    {
-      "id": "2026-11-24:4P:32",
-      "date": "2026-11-24",
-      "class_name": "4P",
-      "lesson_numbers": [],
-      "group": null,
-      "teacher": null,
-      "room": null,
-      "scope": "class",
-      "raw_text": "zmiana w planie"
-    },
-    {
-      "id": "2026-11-24:4P:33",
-      "date": "2026-11-24",
-      "class_name": "4P",
-      "lesson_numbers": [],
-      "group": null,
-      "teacher": null,
-      "room": null,
-      "scope": "class",
-      "raw_text": "Klasa rozpoczyna zajęcia od lekcji 5"
-    },
-    {
-      "id": "2026-11-24:4P:34",
-      "date": "2026-11-24",
-      "class_name": "4P",
-      "lesson_numbers": [
-        5
-      ],
-      "group": null,
-      "teacher": "Gurowiec",
-      "room": "108",
-      "scope": "lesson",
-      "raw_text": "Lekcja 5 całość – j. angielski p. Gurowiec s. 108"
-    },
-    {
-      "id": "2026-11-24:4P:35",
-      "date": "2026-11-24",
-      "class_name": "4P",
-      "lesson_numbers": [
-        6
-      ],
-      "group": null,
-      "teacher": "Gurowiec",
-      "room": "108",
-      "scope": "lesson",
-      "raw_text": "Lekcja 6 całość – j. angielski p. Gurowiec s. 108"
-    },
-    {
-      "id": "2026-11-24:5A:36",
-      "date": "2026-11-24",
-      "class_name": "5A",
+      "id": "2026-11-25:4B:10",
+      "date": "2026-11-25",
+      "class_name": "4B",
       "lesson_numbers": [],
       "group": "2",
       "teacher": null,
@@ -455,78 +137,120 @@
       "raw_text": "Grupa 2 rozpoczyna zajęcia od lekcji 5"
     },
     {
-      "id": "2026-11-24:5B:37",
-      "date": "2026-11-24",
-      "class_name": "5B",
-      "lesson_numbers": [],
-      "group": "2",
-      "teacher": null,
-      "room": null,
-      "scope": "class",
-      "raw_text": "Grupa 2 rozpoczyna zajęcia od lekcji 6"
-    },
-    {
-      "id": "2026-11-24:5C:38",
-      "date": "2026-11-24",
-      "class_name": "5C",
-      "lesson_numbers": [],
-      "group": "1",
-      "teacher": null,
-      "room": null,
-      "scope": "class",
-      "raw_text": "Grupa 1 rozpoczyna zajęcia od lekcji 8"
-    },
-    {
-      "id": "2026-11-24:5D:39",
-      "date": "2026-11-24",
-      "class_name": "5D",
-      "lesson_numbers": [],
-      "group": "1",
-      "teacher": null,
-      "room": null,
-      "scope": "class",
-      "raw_text": "Grupa 1 rozpoczyna zajęcia od lekcji 7"
-    },
-    {
-      "id": "2026-11-24:5D:40",
-      "date": "2026-11-24",
-      "class_name": "5D",
+      "id": "2026-11-25:4C:11",
+      "date": "2026-11-25",
+      "class_name": "4C",
       "lesson_numbers": [
-        5,
+        5
+      ],
+      "group": "1",
+      "teacher": "Schaefer",
+      "room": "aula",
+      "scope": "lesson",
+      "raw_text": "Lekcja 5 grupa 1 – p. Schaefer zmiana sali na s. aula"
+    },
+    {
+      "id": "2026-11-25:4C:12",
+      "date": "2026-11-25",
+      "class_name": "4C",
+      "lesson_numbers": [
+        8
+      ],
+      "group": "2",
+      "teacher": "Schaefer",
+      "room": "aula",
+      "scope": "lesson",
+      "raw_text": "Lekcja 8 grupa 2 – p. Schaefer zmiana sali na s. aula"
+    },
+    {
+      "id": "2026-11-25:4F:13",
+      "date": "2026-11-25",
+      "class_name": "4F",
+      "lesson_numbers": [
+        2,
+        3
+      ],
+      "group": "1",
+      "teacher": "Ducka",
+      "room": "212B",
+      "scope": "lesson",
+      "raw_text": "Lekcja 2, 3 grupa 1 – p. Ducka zmiana sali na s. 212B"
+    },
+    {
+      "id": "2026-11-25:4F:14",
+      "date": "2026-11-25",
+      "class_name": "4F",
+      "lesson_numbers": [
         6
       ],
       "group": "2",
-      "teacher": "Wieczorek",
-      "room": "205",
+      "teacher": "Goj",
+      "room": "SG3",
       "scope": "lesson",
-      "raw_text": "Lekcja 5, 6 grupa 2 – zastępstwo j. angielski p. Wieczorek s. 205"
+      "raw_text": "Lekcja 6 grupa 2 – zastępstwo WF p. Goj s. SG3"
     },
     {
-      "id": "2026-11-24:5D:41",
-      "date": "2026-11-24",
-      "class_name": "5D",
+      "id": "2026-11-25:4CS:15",
+      "date": "2026-11-25",
+      "class_name": "4CS",
+      "lesson_numbers": [
+        4
+      ],
+      "group": "2",
+      "teacher": "Ducka",
+      "room": "212B",
+      "scope": "lesson",
+      "raw_text": "Lekcja 4 grupa 2 – p. Ducka zmiana sali na s. 212B"
+    },
+    {
+      "id": "2026-11-25:4CS:16",
+      "date": "2026-11-25",
+      "class_name": "4CS",
+      "lesson_numbers": [
+        5
+      ],
+      "group": null,
+      "teacher": "Ducka",
+      "room": "212B",
+      "scope": "lesson",
+      "raw_text": "Lekcja 5 – p. Ducka zmiana sali na s. 212B"
+    },
+    {
+      "id": "2026-11-25:5B:17",
+      "date": "2026-11-25",
+      "class_name": "5B",
+      "lesson_numbers": [],
+      "group": "1",
+      "teacher": null,
+      "room": null,
+      "scope": "class",
+      "raw_text": "Grupa 1 zwolniona do domu po lekcji 4"
+    },
+    {
+      "id": "2026-11-25:5E:18",
+      "date": "2026-11-25",
+      "class_name": "5E",
+      "lesson_numbers": [
+        6
+      ],
+      "group": null,
+      "teacher": "Sukiennik",
+      "room": "aula",
+      "scope": "lesson",
+      "raw_text": "Lekcja 6 - p. Sukiennik zmiana sali na s. aula"
+    },
+    {
+      "id": "2026-11-25:5E:19",
+      "date": "2026-11-25",
+      "class_name": "5E",
       "lesson_numbers": [
         7
       ],
       "group": null,
-      "teacher": "Gajewska",
-      "room": "109",
+      "teacher": "Sukiennik",
+      "room": "106",
       "scope": "lesson",
-      "raw_text": "Lekcja 7 całość – zastępstwo p. Gajewska s. 109"
-    },
-    {
-      "id": "2026-11-24:5E:42",
-      "date": "2026-11-24",
-      "class_name": "5E",
-      "lesson_numbers": [
-        10,
-        11
-      ],
-      "group": null,
-      "teacher": "Bartusik",
-      "room": "212",
-      "scope": "lesson",
-      "raw_text": "Lekcja 10, 11 – zastępstwo obsługa p. Bartusik s. 212"
+      "raw_text": "Lekcja 7 - p. Sukiennik zmiana sali na s. 106"
     }
   ]
 }
